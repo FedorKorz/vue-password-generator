@@ -68,7 +68,7 @@
 </script>
 
 <template>
-  <div class="app">
+  <div v-bind:class="{'app easy':+passwordLenght <= 5, 'app medium':+passwordLenght >= 6 && passwordLenght <= 24, 'app hard':+passwordLenght >= 25 }">
     <PasswordBox 
       @generatePass='generatePassword'
       v-bind:password='password'
@@ -87,11 +87,17 @@
 <style>
   .app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+     transition: 1s;
     height: 600px;
-    background-color: aquamarine;
+  }
+  .easy {
+    background-color: lightseagreen;
+  }
+  .medium {
+    background-color: yellow;
+  }
+  .hard {
+    background-color: brown;  
   }
 </style>
