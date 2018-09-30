@@ -1,21 +1,46 @@
-# vue-hello-world
+vue-password-generator
+=====================
 
-> none
+Проект на vue. Генерирует пароль в зависимости от настроек пользователя, наличие символов, цифр, буквы верхнего регистра. Цвет фона меняется в зависимости от сложности пароля. 
+***
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+Структура проекта. 
+-----------------------------------
 ```
+├── build
+│   ├── build.js
+│   ├── check-versions.js
+│   ├── logo.png
+│   ├── utils.js
+│   ├── vue-loader.conf.js
+│   ├── webpack.base.conf.js
+│   ├── webpack.dev.conf.js
+│   └── webpack.prod.conf.js
+├── config
+│   ├── dev.env.js
+│   ├── index.js
+│   └── prod.env.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── src
+    ├── App.vue
+    ├── assets
+    │   └── logo.png
+    ├── components
+    │   ├── CheckBoxes.vue
+    │   ├── PasswordBox.vue
+    │   └── RangeSlider.vue
+    ├── main.js
+    └── store
+        ├── Digits.vue
+        ├── LowerCase.vue
+        ├── Symbols.vue
+        └── UpperCase.vue
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
+Список использованных технологий
+-----------------------------------
+* Vue
