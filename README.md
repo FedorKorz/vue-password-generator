@@ -1,11 +1,11 @@
 vue-password-generator
 =====================
 
-Проект на vue. Генерирует пароль в зависимости от настроек пользователя, наличие символов, цифр, буквы верхнего регистра. Цвет фона меняется в зависимости от сложности пароля. В зависимости от положения ползунка slider'а пользователь выбирает длину пароля. Есть возможность копирования в буфер обмена. 
+The project is on vue. Generates a password depending on the user's settings, the presence of symbols, numbers, uppercase letters. The background color changes depending on the complexity of the password. Depending on the position of the slider's slider, the user selects the password length. It is possible to copy to the clipboard.
 ***
 
 
-Структура проекта. 
+Structure
 -----------------------------------
 ```
 ├── build
