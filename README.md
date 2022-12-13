@@ -41,11 +41,18 @@ Structure
         └── UpperCase.vue
 
 ```
-Список использованных технологий
+Dependencies
 -----------------------------------
 * Vue
 
-Установка
+Install
 -----------------------------------
 * npm install
 * npm start
+
+Lve Demo 
+
+[![Watch the video](https://pasteboard.co/0n1gPBG0KqNE.gif)](https://www.loom.com/share/4f5985ad63164b32a5070f05e2094dba)
+
+
+
