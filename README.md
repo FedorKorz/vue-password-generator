@@ -54,7 +54,7 @@ Lve Demo
 
 [![Watch the video](https://pasteboard.co/0n1gPBG0KqNE.gif)](https://www.loom.com/share/4f5985ad63164b32a5070f05e2094dba)
 
-https://pasteboard.co/0n1gPBG0KqNE.gif
+![Alt Text](https://pasteboard.co/0n1gPBG0KqNE.gif)
 
 
 
