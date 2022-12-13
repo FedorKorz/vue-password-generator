@@ -52,9 +52,7 @@ Install
 
 Lve Demo 
 
-[![Watch the video](https://i.postimg.cc/2jvFGTs3/output.gif)](https://www.loom.com/share/4f5985ad63164b32a5070f05e2094dba)
-
 [![output.gif](https://i.postimg.cc/2jvFGTs3/output.gif)](https://postimg.cc/K4GMv7vy)
 
-
+[![Watch the video]()](https://www.loom.com/share/4f5985ad63164b32a5070f05e2094dba)
 
